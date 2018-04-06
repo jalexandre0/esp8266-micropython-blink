@@ -15,4 +15,4 @@ To upload blink to a brand new nodeMCU:
 3 - Run bin/flash path-to-esp-micropython-firmware   
 4 - Reset your board
 5 - Run bin/upload_project
-
+6 - Reset your board

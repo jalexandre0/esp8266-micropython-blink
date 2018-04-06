@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ./esptool --port /dev/ttyUSB0 erase_flash
+./esptool --port /dev/ttyUSB0 erase_flash
