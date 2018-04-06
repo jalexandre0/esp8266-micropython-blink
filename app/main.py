@@ -1,4 +1,4 @@
-from app.test import *
+from blink.blink import *
 import time
 
 def main():

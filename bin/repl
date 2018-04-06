@@ -1,0 +1,2 @@
+#!/bin/bash
+mpfshell -n -c 'open ttyUSB0 ; repl'

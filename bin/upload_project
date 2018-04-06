@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ESP_ROOT="$HOME/code/esp8266-micropython-blink/app"
+APP_DIR="$HOME/code/esp8266-micropython-blink/app/blink"
+APP_NAME="blink"
+
+
+mpfshell -n -c "open ttyUSB0; 
+		md $APP_NAME ;
+		lcd $ESP_ROOT ;
+		mput .*\.* ; 
+		lcd $APP_DIR ; 
+		cd $APP_NAME ; 
+		mput .*\.* ; 
+		exit;"
