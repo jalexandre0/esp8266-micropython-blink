@@ -9,10 +9,10 @@ but you are free to use prefered (and best) methods.
 
 To upload blink to a brand new nodeMCU:
 
-0 - Download esp-micropython-firmware
-1 - Install mpfshell and esptool in your system
-2 - Run bin/erase_flash
-3 - Run bin/flash path-to-esp-micropython-firmware   
-4 - Reset your board
-5 - Run bin/upload_project
-6 - Reset your board
+    0 - Download esp-micropython-firmware
+    1 - Install mpfshell and esptool in your system
+    2 - Run bin/erase_flash
+    3 - Run bin/flash path-to-esp-micropython-firmware   
+    4 - Reset your board
+    5 - Run bin/upload_project
+    6 - Reset your board
