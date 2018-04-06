@@ -5,4 +5,4 @@ pin = machine.Signal(2, invert=True)
 
 def toggle(p):
     p.value(not p.value())
-
+    
