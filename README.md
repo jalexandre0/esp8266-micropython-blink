@@ -28,7 +28,7 @@ To upload esp8266-micropython-blink nodeMCU board, you will need:
 
 If everything run smoothly, after reset you should see the internal led blinking. 
 
-No its time to play. 
+Now its time to play. 
 
 Use bin/repl script to invoke micropyhton interactive shell. This must interrupt any code
 running on board and present you with interactive prompt. 
